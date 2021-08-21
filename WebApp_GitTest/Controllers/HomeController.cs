@@ -13,6 +13,10 @@ namespace WebApp_GitTest.Controllers
     {
         [HttpGet ]
         public void Add()
-        { }
+        {
+            int i = 1;
+            int j = 2;
+            int k = i + j;
+        }
     }
 }
